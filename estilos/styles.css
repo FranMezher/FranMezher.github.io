@@ -1,7 +1,7 @@
 header{
     display: flex;
     min-height: 70px;
-    background-color: rgb(132, 136, 132);
+    background-color: rgb(65, 65, 65);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -106,7 +106,7 @@ nav a:hover{
 .footer{
     display: flex;
     min-height: 70px;
-    background-color: rgb(132, 136, 132);
+    background-color: rgb(65, 65, 65);
     justify-content: space-between;
     align-items: center;
     text-align: center;

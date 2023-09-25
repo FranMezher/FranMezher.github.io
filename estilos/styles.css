@@ -116,9 +116,56 @@ nav a:hover{
     width: 100%;
 }
 
-
-@media (max-width:700px){
-    header{
+/*Media para ver la pagina en mobile*/
+@media (max-width: 700px) {
+    header {
         flex-direction: column;
     }
+
+    .lado-izquierdo {
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    .fotoperfil {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .lado-izquierdo p {
+        margin: 10px 0;
+        font-size: 14px;
+        color: white;
+    }
+
+    .menu {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .menu li:hover .subcontactos {
+        display: block;
+    }
+
+    .subcontactos {
+        position: static;
+        background: gray;
+        list-style: none;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+.footer {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna para apilar los elementos */
+    text-align: center;
+    padding: 10px;
 }

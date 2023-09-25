@@ -90,7 +90,7 @@ nav a:hover{
 }
 
 .redes-sociales a {
-    margin-right: 10px; /* Añade un margen entre los iconos de redes sociales */
+    margin-right: 10px;
     text-decoration: none;
     color: white;
 }
@@ -120,11 +120,17 @@ nav a:hover{
     header {
         flex-direction: column;
     }
+    .main {
+        padding: 10px; /* Ajusta el espaciado para dispositivos móviles */
+    }
 
     .lado-izquierdo {
         width: 100%;
         padding: 20px;
         border-radius: 0;
+    }
+    .informacion-personal-container {
+        flex-direction: column; /* Cambia la dirección a columna para dispositivos móviles */
     }
 
     .fotoperfil {
